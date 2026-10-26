@@ -1,0 +1,84 @@
+
+body {
+  margin: 0;
+  background-color: #f4f7fb;
+  font-family: Arial, sans-serif;
+  color: #243047;
+}
+
+.dashboard-header {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.dashboard-header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #243b64;
+}
+
+.dashboard-header p {
+  color: #68758a;
+  margin-top: 8px;
+}
+
+.input-group {
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.task-column {
+  height: 100%;
+  min-height: 300px;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 14px rgba(30, 50, 80, 0.08);
+  border-top: 5px solid #7b8798;
+}
+
+.task-column h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.task-column.pending {
+  border-top-color: #f0ad4e;
+}
+
+.task-column.ongoing {
+  border-top-color: #4285f4;
+}
+
+.task-column.completed {
+  border-top-color: #28a745;
+}
+
+.task-card {
+  border: 1px solid #e4e9f0;
+  border-radius: 8px;
+  overflow-wrap: anywhere;
+}
+
+.task-card .card-text {
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.empty-message {
+  color: #8994a5;
+  font-size: 0.95rem;
+  padding: 10px 0;
+}
+
+@media (max-width: 768px) {
+  .dashboard-header h1 {
+    font-size: 1.6rem;
+  }
+
+  .task-column {
+    min-height: auto;
+  }
+}
