@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/project-task-management/static/css/main.6013f441.css",
+    "main.js": "/project-task-management/static/js/main.141fc78a.js",
+    "static/js/453.85d71570.chunk.js": "/project-task-management/static/js/453.85d71570.chunk.js",
+    "index.html": "/project-task-management/index.html",
+    "main.6013f441.css.map": "/project-task-management/static/css/main.6013f441.css.map",
+    "main.141fc78a.js.map": "/project-task-management/static/js/main.141fc78a.js.map",
+    "453.85d71570.chunk.js.map": "/project-task-management/static/js/453.85d71570.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6013f441.css",
+    "static/js/main.141fc78a.js"
+  ]
+}
